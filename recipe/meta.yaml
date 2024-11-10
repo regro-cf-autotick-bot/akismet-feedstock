@@ -1,5 +1,5 @@
 {% set name = "akismet" %}
-{% set version = "1.2.1" %}
+{% set version = "24.11.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/akismet-{{ version }}.tar.gz
-  sha256: f3790489ea091d43a14717f1f6b1a0a86af2ac235d10b13742ee0ea064ff8ea7
+  sha256: 1fefa05e6500a8b41c43bd1dbff8e04a6c76cc16d217981075d70673731244bd
 
 build:
   number: 0
